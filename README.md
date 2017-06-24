@@ -14,9 +14,9 @@ This project will set up the basic structure for restify including setting up a 
 
 It includes several tools and configuration to enforce following coding best practices:
 
-- [ESLint] (http://eslint.org/)
-- [JSCS] (http://jscs.info/overview)
-- [JSHint] (http://jshint.com/)
+- [ESLint](http://eslint.org/)
+- [JSCS](http://jscs.info/overview)
+- [JSHint](http://jshint.com/)
 
 That are compatible with most modern IDEs
 
@@ -38,8 +38,8 @@ Also note that `npm run-script list` will list out the forever processes that ar
 ## Loging
 
 By default [node-bunyan](https://github.com/trentm/node-bunyan) is used for logging to a files:
- - (`./logs/{{SERVER_NAME}}-{{errors}}.json`)
- - (`./logs/{{SERVER_NAME}}-{{log}}.json`)
+ - `./logs/{{SERVER_NAME}}-errors.json`
+ - `./logs/{{SERVER_NAME}}-log.json`
 
 ## Testing
 
