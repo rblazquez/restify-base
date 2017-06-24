@@ -1,8 +1,8 @@
 restify-base
 ============
 
-[![Build Status](https://travis-ci.org/rblazquez/restify-base.svg)](https://travis-ci.org/rblazquez/node-restify-boilerplate)
-[![Code Climate](https://codeclimate.com/github/rblazquez/restify-base.png)](https://codeclimate.com/github/rblazquez/node-restify-boilerplate)
+[![Build Status](https://travis-ci.org/rblazquez/restify-base.svg)](https://travis-ci.org/rblazquez/restify-base)
+[![Code Climate](https://codeclimate.com/github/rblazquez/restify-base.png)](https://codeclimate.com/github/rblazquez/restify-base)
 
 
 ## Boilerplate setup for building a [Node.js](http://nodejs.org/) RESTful API server with [restify](http://mcavage.github.io/node-restify/).
