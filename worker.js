@@ -18,8 +18,8 @@ exports.createServer = createServer;
 function createServer(logger) {
   var config = {
     name: require(path.join(__dirname, 'package')).name,
-    version: settings.default.server.version,
-    acceptable: settings.default.server.acceptable,
+    version: settings.server.version,
+    acceptable: settings.server.acceptable
   };
 
   if (logger) {
@@ -27,8 +27,8 @@ function createServer(logger) {
   }
 
   var throttleOptions = {
-    rate: settings.default.server.throttleRate,
-    burst: settings.default.server.throttleBurst,
+    rate: settings.server.throttleRate,
+    burst: settings.server.throttleBurst,
     ip: false,
     username: true
   };
