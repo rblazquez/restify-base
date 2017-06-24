@@ -1,0 +1,13 @@
+default:
+  server:
+    port: 8000
+    cluster: false
+    version: "1.0.0",
+    acceptable: [ "application/json" ],
+    throttleRate: 50,
+    throttleBurst: 100
+  logs:
+    # log directory
+    dir: logs
+    # for valid log levels, see [bunyan docs](https://github.com/trentm/node-bunyan#levels)
+    level: debug

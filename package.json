@@ -1,0 +1,31 @@
+{
+  "name": "spike_restify",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/forever start --append -o ./forever.log -e ./forever.log server.js",
+    "stop": "./node_modules/.bin/forever stop server.js",
+    "status": "./node_modules/.bin/forever list",
+    "test": "./node_modules/.bin/mocha -R spec test/*-test.js"
+  },
+  "dependencies": {
+    "restify": "^4.3.0",
+    "bunyan": "^1.8.5",
+    "lodash": "^4.17.4",
+    "request": "^2.79.0",
+    "yaml-config": "~0.3",
+    "forever": "~0.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "chai": "^3.5.0",
+    "eslint": "^4.1.0",
+    "jscs": "^3.0.7",
+    "mocha": "3.1.x",
+    "supertest": "2.0.x"
+  },
+  "engine": {
+    "node": "~0.10"
+  }
+}
